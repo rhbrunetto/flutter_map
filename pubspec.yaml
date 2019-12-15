@@ -17,9 +17,7 @@ dependencies:
   transparent_image: ^1.0.0
   async: ^2.1.0
   flutter_image: ^2.0.0
-  flutter_cache_manager:
-    git:
-      url: https://github.com/rhbrunetto/flutter_cache_manager.git
+  flutter_cache_manager: ^1.1.2
   sqflite: ^1.1.5
   path_provider: ^1.1.0
   vector_math: ^2.0.0
