@@ -7,8 +7,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/src/layer/tile_provider/tile_provider.dart';
+import 'package:sqflite/sqlite_api.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:sqflite/sqflite.dart';
 
 class MBTilesImageProvider extends TileProvider {
   final String asset;
